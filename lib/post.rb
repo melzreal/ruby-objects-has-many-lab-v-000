@@ -10,6 +10,7 @@ class Post
   def post.all
     @@all
   end
+
   def author_name
        self.author ? self.author.name : nil
   end
